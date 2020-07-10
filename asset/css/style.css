@@ -1,0 +1,39 @@
+@media (max-width: 2000px) {
+    #slider .carousel-item img {
+        width: 200%;
+        height: 80vh;
+
+    }
+}
+
+@media (max-width: 1024px) {
+    #slider .carousel-item img {
+        width: 100%;
+        height: auto;
+
+    }
+}
+
+
+@media (max-width: 470px) {
+    #slider .carousel-item img {
+        max-width: 300%;
+        width: 150%;
+        min-height: 300px;
+    }
+}
+
+
+
+.carousel-control-next-icon {
+    color: red;
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    color: red;
+    width: 50px;
+    height: 50px;
+    ;
+}
