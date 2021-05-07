@@ -1,3 +1,8 @@
+html{
+    font-size: 62.5%;
+}
+
+
 @media (max-width: 2000px) {
     #slider .carousel-item img {
         width: 200%;
@@ -15,8 +20,26 @@
     }
 }
 
+@media (max-width: 1395px){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 1200px){
+    html{
+        font-size: 54%;
+    }
+}
+
+
+
 
 @media (max-width: 470px) {
+
+    html{
+        font-size: 40%;
+    }
     #slider .carousel-item img {
         max-width: 300%;
         width: 150%;
@@ -36,26 +59,36 @@
     .about div{
         order: 2;
     }
+    
 }
 
 
 
+/* Making Icon Bigger */
 .carousel-control-next-icon {
-    color: red;
     width: 50px;
     height: 50px;
 }
 
 .carousel-control-prev-icon {
-    color: red;
     width: 50px;
     height: 50px;
     
 }
 
+
 .navcontainer{
     text-align:center;
 }
+
+footer .footerinfo a{
+	color: white;
+}
+
+.contain{
+    height: 50vh !important;
+}
+
 .about{
     display: flex;
     margin-top: 3px;
@@ -65,14 +98,37 @@
 
 .about h1{
     text-align: center;
-    font-size: 1.9rem;
+    font-size: 3.5rem;
 }
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+}
+
 
 .about h5{
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
+footer .info{
+    font-size: 1.36rem;
+}
+
+footer .icons a i{
+    font-size: 2rem;
+}
+
+
+footer .info .footerinfo{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
 
 .about .info{
     margin: 10px;
@@ -84,6 +140,10 @@
 .about img{
     width: 40%;
     margin: 0;
+}
+
+footer .Copyright{
+    font-size: 1.5rem;
 }
 
 footer{
