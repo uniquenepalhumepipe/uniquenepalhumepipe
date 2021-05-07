@@ -120,13 +120,6 @@ body {
   margin: auto;
 }
 
-.byebye {
-  opacity: 0;
-}
-
-.byebye:hover {
-  transform: scale(0.2) !important;
-}
 
 .gallery {
   margin-top: 10px;
