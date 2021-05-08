@@ -1,5 +1,59 @@
-html{
-    font-size: 62.5%;
+.carousel-control-next-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+    
+}
+
+
+.navcontainer{
+    text-align:center;
+}
+
+
+
+.about{
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-between;
+
+}
+
+.about h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+}
+
+
+.about h5{
+    text-align: center;
+    font-size: 1.7rem;
+}
+
+
+
+.about .info{
+    margin: 10px;
+    flex-grow: 2;
+    display: flex;
+    align-items: center;
+}
+
+.about img{
+    width: 40%;
+    margin: 0;
 }
 
 
@@ -60,92 +114,4 @@ html{
         order: 2;
     }
     
-}
-
-
-
-/* Making Icon Bigger */
-.carousel-control-next-icon {
-    width: 50px;
-    height: 50px;
-}
-
-.carousel-control-prev-icon {
-    width: 50px;
-    height: 50px;
-    
-}
-
-
-.navcontainer{
-    text-align:center;
-}
-
-footer .footerinfo a{
-	color: white;
-}
-
-.contain{
-    height: 50vh !important;
-}
-
-.about{
-    display: flex;
-    margin-top: 3px;
-    justify-content: space-between;
-
-}
-
-.about h1{
-    text-align: center;
-    font-size: 3.5rem;
-}
-
-.navbar-brand{
-    font-size: 2rem;
-}
-
-.navbar-nav{
-    font-size: 1.5rem;
-}
-
-
-.about h5{
-    text-align: center;
-    font-size: 1.7rem;
-}
-
-footer .info{
-    font-size: 1.36rem;
-}
-
-footer .icons a i{
-    font-size: 2rem;
-}
-
-
-footer .info .footerinfo{
-    line-height: 3rem;
-    display: flex;
-    flex-direction: column;
-}
-
-.about .info{
-    margin: 10px;
-    flex-grow: 2;
-    display: flex;
-    align-items: center;
-}
-
-.about img{
-    width: 40%;
-    margin: 0;
-}
-
-footer .Copyright{
-    font-size: 1.5rem;
-}
-
-footer{
-    margin-top: 3px;
 }

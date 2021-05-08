@@ -1,0 +1,61 @@
+html{
+	font-size: 62.5%;
+}
+
+.navcontainer{
+    text-align:center;
+}
+
+
+footer .footerinfo a {
+	text-decoration: none;
+    color: white;
+}
+
+.about{
+    display: flex;
+    margin-top: 3px;
+    justify-content: space-between;
+
+}
+
+.about h1{
+    text-align: center;
+    font-size: 3.5rem;
+}
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+.navbar-nav{
+    font-size: 1.5rem;
+}
+
+
+
+footer .info{
+    font-size: 1.36rem;
+}
+
+footer .icons a i{
+    font-size: 2rem;
+    
+}
+
+
+footer .info .footerinfo{
+    line-height: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+footer .Copyright{
+    font-size: 1.5rem;
+}
+
+footer{
+    margin-top: 3px;
+}
