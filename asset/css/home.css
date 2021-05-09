@@ -28,14 +28,6 @@
     font-size: 3.5rem;
 }
 
-.navbar-brand{
-    font-size: 2rem;
-}
-
-.navbar-nav{
-    font-size: 1.5rem;
-}
-
 
 .about h5{
     text-align: center;
@@ -86,7 +78,23 @@
     }
 }
 
+@media screen and (max-width: 629px){
 
+
+    .about{
+        flex-wrap: wrap;
+    }
+
+    .about img{
+        flex-grow: 0.8;
+        order: 1;
+        margin: 0 auto;
+    }
+
+    .about div{
+        order: 2;
+    }
+}
 
 
 @media (max-width: 470px) {
