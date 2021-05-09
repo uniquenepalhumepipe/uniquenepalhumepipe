@@ -12,17 +12,7 @@ footer .footerinfo a {
     color: white;
 }
 
-.about{
-    display: flex;
-    margin-top: 3px;
-    justify-content: space-between;
 
-}
-
-.about h1{
-    text-align: center;
-    font-size: 3.5rem;
-}
 
 .navbar-brand{
     font-size: 19px;

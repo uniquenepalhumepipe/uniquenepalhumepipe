@@ -1,0 +1,16 @@
+
+
+
+.about img{
+    display: block;
+    margin: auto;
+    padding: 2rem auto;
+    width: 40%;
+    
+}
+
+.about div h5{
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
