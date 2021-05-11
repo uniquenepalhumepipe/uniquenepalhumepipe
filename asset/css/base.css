@@ -25,17 +25,17 @@ footer .footerinfo a {
 
 
 footer .info{
-    font-size: 1.36rem;
+    font-size: 13.6px;
 }
 
 footer .icons a i{
-    font-size: 2rem;
+    font-size: 20px;
     
 }
 
 
 footer .info .footerinfo{
-    line-height: 3rem;
+    line-height: 33px;
     display: flex;
     flex-direction: column;
 }
